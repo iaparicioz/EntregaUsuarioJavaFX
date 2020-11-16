@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="idUsuario" promptText="Nombre de usuario: " />
+      <PasswordField fx:id="idContraseña" promptText="Contraseña:" GridPane.rowIndex="2" />
+      <Button fx:id="idBoton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#clickedBoton" text="Guardar" GridPane.rowIndex="3" />
+      <Label fx:id="idMostrarContraseña" alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" onMouseMoved="#mostrarContraseña" text="Mostrar contraseña" GridPane.rowIndex="4" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
